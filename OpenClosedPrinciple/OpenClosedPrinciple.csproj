@@ -43,6 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AreaCalculator.cs" />
+    <Compile Include="Functionality\AreaCalculators\Circle.cs" />
+    <Compile Include="Functionality\AreaCalculators\Rectangle.cs" />
     <Compile Include="Functionality\BaseSalaryCalculator.cs" />
     <Compile Include="Functionality\JuniorDevSalaryCalculator.cs" />
     <Compile Include="Model\DeveloperReport.cs" />

@@ -1,4 +1,5 @@
 ﻿using OpenClosedPrinciple.Functionality;
+using OpenClosedPrinciple.Functionality.AreaCalculators;
 using OpenClosedPrinciple.Model;
 using System;
 using System.Collections.Generic;
@@ -22,6 +23,15 @@ namespace OpenClosedPrinciple
             var calculator = new SalaryCalculator(devCalculations);
             Console.WriteLine($"Sum of all the developer salaries is {calculator.CalculateTotalSalaries()} dollars");
 
+            var rectangles = new List<Rectangle>()
+            {
+                new Rectangle(){Height=12,Width=20},
+                new Rectangle(){Height=12,Width=20},
+                new Rectangle(){Height=12,Width=20},
+            };
+
+
+            double a = AreaCalculator.Area(rectangles);
 
             Console.ReadKey();
         }
