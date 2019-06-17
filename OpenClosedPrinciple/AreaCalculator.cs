@@ -9,24 +9,30 @@ namespace OpenClosedPrinciple
 {
     class AreaCalculator
     {
-        public static double Area(object[] shapes)
+        public static double Area(List<Shape> shapes)
         {
             double area = 0;
+
             foreach (var shape in shapes)
             {
-                if (shape is Rectangle)
-                {
-                    Rectangle rectangle = (Rectangle)shape;
-                    area += rectangle.Width * rectangle.Height;
-                }
+                area += shape.Area();
+
 
                 if (shape is Circle)
                 {
-                    Circle circle = (Circle)shape;
-                    area += (circle.Radius * circle.Radius) * Math.PI;
+                    Console.WriteLine("Circle");
+                }
+                if (shape is Square)
+                {
+                    Console.WriteLine("Square");
+                }
+                if (shape is Triangle)
+                {
+                    Console.WriteLine("Triangle");
                 }
             }
-            //https://exceptionnotfound.net/simply-solid-the-open-closed-principle/
+
+
             return area;
         }
     }

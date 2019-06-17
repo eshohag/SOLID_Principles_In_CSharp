@@ -6,9 +6,8 @@ using System.Threading.Tasks;
 
 namespace OpenClosedPrinciple.Functionality.AreaCalculators
 {
-    public class Rectangle
+    public abstract class Shape
     {
-        public double Width { get; set; }
-        public double Height { get; set; }
+        public abstract double Area();
     }
 }

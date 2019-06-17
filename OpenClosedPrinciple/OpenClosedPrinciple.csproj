@@ -45,13 +45,15 @@
   <ItemGroup>
     <Compile Include="AreaCalculator.cs" />
     <Compile Include="Functionality\AreaCalculators\Circle.cs" />
-    <Compile Include="Functionality\AreaCalculators\Rectangle.cs" />
-    <Compile Include="Functionality\BaseSalaryCalculator.cs" />
-    <Compile Include="Functionality\JuniorDevSalaryCalculator.cs" />
+    <Compile Include="Functionality\AreaCalculators\Square.cs" />
+    <Compile Include="Functionality\AreaCalculators\Shape.cs" />
+    <Compile Include="Functionality\AreaCalculators\Triangle.cs" />
+    <Compile Include="Functionality\SalaryCalculator\BaseSalaryCalculator.cs" />
+    <Compile Include="Functionality\SalaryCalculator\JuniorDevSalaryCalculator.cs" />
     <Compile Include="Model\DeveloperReport.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Functionality\SeniorDevSalaryCalculator.cs" />
+    <Compile Include="Functionality\SalaryCalculator\SeniorDevSalaryCalculator.cs" />
     <Compile Include="SalaryCalculator.cs" />
   </ItemGroup>
   <ItemGroup>

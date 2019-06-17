@@ -6,16 +6,16 @@ using System.Threading.Tasks;
 
 namespace OpenClosedPrinciple.Functionality.AreaCalculators
 {
-    public class Circle : Shape
+    public class Square : Shape
     {
-        public double Radius { get; private set; }
-        public Circle(double radius)
+        public double Height { get; private set; }
+        public Square(double height)
         {
-            Radius = radius;
+            Height = height;
         }
         public override double Area()
         {
-            return Radius * Radius * Math.PI;
+            return Math.Sqrt(Height);
         }
     }
 }
