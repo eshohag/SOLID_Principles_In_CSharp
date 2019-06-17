@@ -1,11 +1,8 @@
 ﻿using DependencyInversionPrinciple.Enum;
 using DependencyInversionPrinciple.Interface;
 using DependencyInversionPrinciple.Model;
-using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DependencyInversionPrinciple.Manager
 {
@@ -18,9 +15,9 @@ namespace DependencyInversionPrinciple.Manager
             _employees = new List<Employee>()
                         {
                             new Employee { Name = "Shohag", Gender = Gender.Male, Position = Position.Administrator },
-                            new Employee { Name = "Leen", Gender = Gender.Female, Position = Position.Manager },
-                            new Employee { Name = "Leen", Gender = Gender.Female, Position = Position.Manager },
-                            new Employee { Name = "Leen", Gender = Gender.Female, Position = Position.Manager }
+                            new Employee { Name = "Susmita", Gender = Gender.Female, Position = Position.Manager },
+                            new Employee { Name = "Sayed", Gender = Gender.Male, Position = Position.Manager },
+                            new Employee { Name = "Kobir", Gender = Gender.Male, Position = Position.Executive }
                         };
         }
 
