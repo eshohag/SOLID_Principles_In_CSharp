@@ -17,22 +17,36 @@ namespace OpenClosedPrinciple
             {
                 area += shape.Area();
 
+                switch (shape)
+                {
+                    case Circle Circle:
+                        Console.WriteLine("Circle");
+                        break;
 
-                if (shape is Circle)
-                {
-                    Console.WriteLine("Circle");
+                    case Square Square:
+                        Console.WriteLine("Square");
+                        break;
+
+                    case Triangle Triangle:
+                        Console.WriteLine("Triangle");
+                        break;
+
+                    default:
+                        break;
                 }
-                if (shape is Square)
-                {
-                    Console.WriteLine("Square");
-                }
-                if (shape is Triangle)
-                {
-                    Console.WriteLine("Triangle");
-                }
+                //if (shape is Circle)
+                //{
+                //    Console.WriteLine("Circle");
+                //}
+                //if (shape is Square)
+                //{
+                //    Console.WriteLine("Square");
+                //}
+                //if (shape is Triangle)
+                //{
+                //    Console.WriteLine("Triangle");
+                //}
             }
-
-
             return area;
         }
     }
