@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace DependencyInversionPrinciple.Manager
 {
-    public class EmployeeManager : IEmployeeSearchable
+    public class EmployeeManager : IEmployeeSearchable, IEmployeeDetails
     {
         private readonly List<Employee> _employees;
 
@@ -22,6 +22,11 @@ namespace DependencyInversionPrinciple.Manager
                             new Employee { Name = "Leen", Gender = Gender.Female, Position = Position.Manager },
                             new Employee { Name = "Leen", Gender = Gender.Female, Position = Position.Manager }
                         };
+        }
+
+        public List<Employee> Details()
+        {
+            return _employees;
         }
 
         public IEnumerable<Employee> GetEmployeesByGenderAndPosition(Gender gender, Position position)

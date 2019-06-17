@@ -50,8 +50,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EmployeeDetails.cs" />
     <Compile Include="EmployeeStatistics.cs" />
     <Compile Include="Enum\EnumList.cs" />
+    <Compile Include="Interface\IEmployeeDetails.cs" />
     <Compile Include="Interface\IEmployeeSearchable.cs" />
     <Compile Include="Manager\EmployeeManager.cs" />
     <Compile Include="Model\Employee.cs" />

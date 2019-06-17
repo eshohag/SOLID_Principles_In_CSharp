@@ -21,6 +21,9 @@ namespace DependencyInversionPrinciple
             Console.WriteLine($"Number of female managers in our company is: {stats.CountFemaleManagers()}");
             Console.WriteLine($"Number of Male Administrators in our company is: {stats.CountMaleAdministrators()}");
 
+            var detail = new EmployeeDetails(empManager);
+            detail.GetEmployeeDetail();
+
             Console.ReadKey();
         }
     }
