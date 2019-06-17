@@ -19,7 +19,7 @@ namespace DependencyInversionPrinciple
         {
             foreach (var employee in _emp.Details())
             {
-                Console.WriteLine(employee.Name);
+                Console.WriteLine("Name- " + employee.Name + " & Designation- " + employee.Position);
             }
         }
     }
