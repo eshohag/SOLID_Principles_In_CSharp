@@ -43,11 +43,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Calculator.cs" />
-    <Compile Include="EvenNumbersSumCalculator.cs" />
+    <Compile Include="Functionality\Airplane.cs" />
+    <Compile Include="Functionality\Car.cs" />
+    <Compile Include="Functionality\MultiFunctionalCar.cs" />
+    <Compile Include="Interface\IAirplane.cs" />
+    <Compile Include="Interface\ICar.cs" />
+    <Compile Include="Interface\IMultiFunctionalVehicle.cs" />
+    <Compile Include="MultiFunctionalVehicle.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SumCalculator.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
