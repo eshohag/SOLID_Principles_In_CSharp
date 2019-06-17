@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("SOLID_Principles_In_CSharp")]
+[assembly: AssemblyTitle("InterfaceSegregationPrinciple")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("SOLID_Principles_In_CSharp")]
+[assembly: AssemblyProduct("InterfaceSegregationPrinciple")]
 [assembly: AssemblyCopyright("Copyright ©  2019")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("ce9af258-f8b9-4b96-abdb-917c6ae79a44")]
+[assembly: Guid("d9660bc8-6e2b-4c1e-b4f8-6ba3648b2299")]
 
 // Version information for an assembly consists of the following four values:
 //

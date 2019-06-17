@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SOLID_Principles_In_CSharp
+namespace InterfaceSegregationPrinciple
 {
     class Program
     {
