@@ -9,7 +9,7 @@ namespace OpenClosedPrinciple
 {
     class AreaCalculator
     {
-        public static double Area(List<Shape> shapes)
+        public static double Area(IEnumerable<Shape> shapes)
         {
             double area = 0;
 
