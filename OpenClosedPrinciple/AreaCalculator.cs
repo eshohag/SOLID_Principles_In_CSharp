@@ -17,6 +17,7 @@ namespace OpenClosedPrinciple
             {
                 area += shape.Area();
 
+                #region SwitchStatementIsBetterThenIfStatement
                 switch (shape)
                 {
                     case Circle Circle:
@@ -34,6 +35,9 @@ namespace OpenClosedPrinciple
                     default:
                         break;
                 }
+                #endregion
+
+                #region IfStatementsComment
                 //if (shape is Circle)
                 //{
                 //    Console.WriteLine("Circle");
@@ -46,6 +50,7 @@ namespace OpenClosedPrinciple
                 //{
                 //    Console.WriteLine("Triangle");
                 //}
+                #endregion
             }
             return area;
         }
