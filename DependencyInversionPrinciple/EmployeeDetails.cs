@@ -1,9 +1,5 @@
 ﻿using DependencyInversionPrinciple.Interface;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DependencyInversionPrinciple
 {
@@ -17,7 +13,7 @@ namespace DependencyInversionPrinciple
         }
         public void GetEmployeeDetail()
         {
-            foreach (var employee in _emp.Details())
+            foreach (var employee in _emp.GetEmployeeDetails())
             {
                 Console.WriteLine("Name- " + employee.Name + " & Designation- " + employee.Position);
             }

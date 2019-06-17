@@ -24,7 +24,7 @@ namespace DependencyInversionPrinciple.Manager
                         };
         }
 
-        public List<Employee> Details()
+        public List<Employee> GetEmployeeDetails()
         {
             return _employees;
         }
