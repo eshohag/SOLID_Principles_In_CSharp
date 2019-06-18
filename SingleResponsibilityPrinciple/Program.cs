@@ -10,6 +10,11 @@ namespace SingleResponsibilityPrinciple
     {
         static void Main(string[] args)
         {
+            StudentRepository studentRepository = new StudentRepository();
+            var successFaildResult = studentRepository.ValidateAndCreate(new Student() { Id = 1001, FullName = "Shohag" });
+            Console.WriteLine(successFaildResult);
+
+            Console.ReadKey();
         }
     }
 }
