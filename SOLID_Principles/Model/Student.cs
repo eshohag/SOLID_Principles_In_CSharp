@@ -1,7 +1,7 @@
 ﻿
 namespace SOLID_Principles.Model
 {
-    public class Student : CommonProperties
+    public class Student : Common
     {
       
     }

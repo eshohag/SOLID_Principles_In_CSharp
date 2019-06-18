@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SOLID_Principles
 {
-    public class CommonProperties
+    public class Common
     {
         public int Id { get; set; }
         public string FullName { get; set; }
